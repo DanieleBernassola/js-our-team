@@ -34,3 +34,10 @@ const persona6 = {
 
 // Creazione array persone
 const persone = [persona1, persona2, persona3, persona4, persona5, persona6];
+
+for (let key in persone){
+    // console.log(persone[key].firstName);
+    // console.log(persone[key].role);
+    // console.log(persone[key].image);
+    console.log(persone[key]);
+}
