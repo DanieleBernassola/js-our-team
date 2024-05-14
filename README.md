@@ -22,5 +22,7 @@ MILESTONE 2:
 BONUS 1:
 <!-- Trasformare la stringa foto in una immagine effettiva -->
 
+- Trasformo il p creato in js per appendere la stringa in un tag img
+
 BONUS 2:
 <!-- Organizzare i singoli membri in card/schede -->

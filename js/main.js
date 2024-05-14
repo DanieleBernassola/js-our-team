@@ -7,32 +7,32 @@ const team = [
     {
         firstName: 'Wayne Barnett',
         role: 'Founder & CEO',
-        image: 'wayne-barnett-founder-ceo.jpg',
+        image: './img/wayne-barnett-founder-ceo.jpg',
     },
     {
         firstName: 'Angela Caroll',
         role: 'Chief Editor',
-        image: 'angela-caroll-chief-editor.jpg',
+        image: './img/angela-caroll-chief-editor.jpg',
     },
     {
         firstName: 'Walter Gordon',
         role: 'Office Manager',
-        image: 'walter-gordon-office-manager.jpg',
+        image: './img/walter-gordon-office-manager.jpg',
     },
     {
         firstName: 'Angela Lopez',
         role: 'Social Media Manager',
-        image: 'angela-lopez-social-media-manager.jpg',
+        image: './img/angela-lopez-social-media-manager.jpg',
     },
     {
         firstName: 'Scott Estrada',
         role: 'Developer',
-        image: 'scott-estrada-developer.jpg',
+        image: './img/scott-estrada-developer.jpg',
     },
     {
         firstName: 'Barbara Ramos',
         role: 'Graphic Designer',
-        image: 'barbara-ramos-graphic-designer.jpg',
+        image: './img/barbara-ramos-graphic-designer.jpg',
     },
 ]
 
@@ -51,8 +51,8 @@ for (let i = 0; i < team.length; i++){
     const li = document.createElement('li');
 
     // Creazione img e append su li
-    const img = document.createElement('p');
-    img.append(currentElement.image);
+    const img = document.createElement('img');
+    img.src = currentElement.image;
     li.append(img);
 
     // Creazione h2 e append su li
@@ -64,6 +64,6 @@ for (let i = 0; i < team.length; i++){
     const role = document.createElement('p');
     role.append(currentElement.role);
     li.append(role);
-    
+
     ul.append(li);
 }
